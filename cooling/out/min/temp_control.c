@@ -67,7 +67,7 @@ int main(void)
 	}
 
 	// 开启RGB灯特效
-	wiringPiI2CWriteReg8(fd_i2c, 0x04, 0x03);
+	wiringPiI2CWriteReg8(fd_i2c, 0x07, 0x00);
 
 	// wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x00);   // close fan
 	// ssd1306_display();      //show logo
@@ -309,7 +309,7 @@ int main(void)
 				}
 			}
 		}
-		wiringPiI2CWriteReg8(fd_i2c, 0x07, 0x00);
+		
 		//delay(500);
 		//switch (count++)
 		//{
