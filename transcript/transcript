@@ -17,7 +17,7 @@ usage()
 
 # global dir for tmp files
 tmpDir="/tmp/$(echo $UID | md5sum | awk '{print $1}')"
-dataRegEx="./[comp|COMP][0-9a-zA-Z]+-[0-9]{4}.txt"
+dataRegEx="\.\/[comp|COMP][0-9a-zA-Z]+-[0-9]{4}\.txt"
 
 if [[ $* == "--help" || $* == "-help" ]]; then usage; exit; fi
 
