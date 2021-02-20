@@ -5,11 +5,11 @@ usage()
 {
 	echo "Student Transcript Generator 1.0.0"
 	echo "Copyright © 2021 WANG Meng SID: 19078543d"
-	echo "Visit Github https://github.com/Moenupa for author details"
+	echo "  Visit Github https://github.com/Moenupa for author details"
 	echo
 	echo "Usage: ./transcript [name]"
-	echo "generate student transcript for parameter [name], if none then generate for all possible"
-	echo "data from files REGEX\`$dataRegEx\` in posix-extended"
+	echo "  generate student transcript for parameter [name], if none then generate for all possible"
+	echo "  data from files REGEX\`$dataRegEx\` in posix-extended"
 	echo
 	echo "Actions:"
 	echo "  -help                get help"
